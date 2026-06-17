@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "orderId": "fusion-cast-launch",
+  "intro": {
+    "kicker": "融合铸影发布会",
+    "headline": "把创意简报，铸造成可交付的发布会视频。",
+    "subline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+    "product": "融合铸影"
+  },
+  "lightSweep": {
+    "operatingHeadline": "让发布会视频从创意开始，就带着证据走向交付。",
+    "timelineInputTitle": "订单输入",
+    "timelineInputDetail": "品牌、中文文案、资产、范围和审批进入同一份商业订单。",
+    "timelineRenderTitle": "受控生产",
+    "timelineRenderDetail": "私有时间线生成主片、变体、字幕、截图证明和交付报告。",
+    "dashboardTitle": "融合铸影发布控制台"
+  },
+  "premiumClip": {
+    "headline": "不是生成一段视频，而是交付一套可复核的发布资产。"
+  },
+  "cta": {
+    "headline": "首批开放三个中文试交付。",
+    "action": "预约试交付"
+  },
+  "variantIdeas": [
+    {
+      "variantId": "fusion-cast-launch-headline",
+      "type": "headline",
+      "headline": "发布会视频，要有主片、变体、证明和门禁。",
+      "cta": "查看试交付"
+    },
+    {
+      "variantId": "fusion-cast-launch-cta",
+      "type": "cta",
+      "headline": "从智能生成，走向可负责的商业交付。",
+      "cta": "预约名额"
+    },
+    {
+      "variantId": "fusion-cast-launch-hero",
+      "type": "heroImage",
+      "headline": "一条管线，交付发布会主片和证据包。",
+      "cta": "检查证明包"
+    }
+  ]
+}
