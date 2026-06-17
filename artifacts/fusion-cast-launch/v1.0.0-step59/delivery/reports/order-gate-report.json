@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "status": "ready",
+  "checkedAt": "2026-06-14T18:02:54.750Z",
+  "productDefinitionPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\product-definition.json",
+  "orderPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\order.json",
+  "orderDir": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch",
+  "selectedOrder": "fusion-cast-launch",
+  "present": [
+    "schemaVersion",
+    "orderId",
+    "orderType",
+    "brandName",
+    "templateId",
+    "aspectRatio",
+    "durationSeconds",
+    "copyBrief",
+    "brandKit",
+    "assets",
+    "approval",
+    "outputRequirements"
+  ],
+  "splitFiles": [
+    {
+      "fileName": "brand-kit.json",
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\brand-kit.json",
+      "loaded": true
+    },
+    {
+      "fileName": "copy-brief.json",
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\copy-brief.json",
+      "loaded": true
+    },
+    {
+      "fileName": "asset-manifest.json",
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\asset-manifest.json",
+      "loaded": true
+    },
+    {
+      "fileName": "approval.json",
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\approval.json",
+      "loaded": true
+    }
+  ],
+  "deliverySchemaValid": true,
+  "packageSchemaValid": true,
+  "checkedAssets": [
+    {
+      "field": "brandKit.logoPath",
+      "value": "assets/fusion-cast-logo-cn.png",
+      "resolvedPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\assets\\fusion-cast-logo-cn.png",
+      "insideOrderDir": true,
+      "exists": true,
+      "required": true,
+      "source": "brandKit"
+    },
+    {
+      "field": "assets.0.path",
+      "value": "assets/fusion-cast-logo-cn.png",
+      "resolvedPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\assets\\fusion-cast-logo-cn.png",
+      "insideOrderDir": true,
+      "exists": true,
+      "required": true,
+      "source": "local-generated"
+    },
+    {
+      "field": "assets.1.path",
+      "value": "assets/fusion-cast-minimal-stage-v5.png",
+      "resolvedPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\assets\\fusion-cast-minimal-stage-v5.png",
+      "insideOrderDir": true,
+      "exists": true,
+      "required": true,
+      "source": "dreamina-cli-text2image-v5-cn-prompt"
+    },
+    {
+      "field": "assets.2.path",
+      "value": "assets/fusion-cast-minimal-proof-v5.png",
+      "resolvedPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\video-tools\\commercial\\orders\\fusion-cast-launch\\assets\\fusion-cast-minimal-proof-v5.png",
+      "insideOrderDir": true,
+      "exists": true,
+      "required": true,
+      "source": "dreamina-cli-text2image-v5-cn-prompt"
+    }
+  ],
+  "placeholderHits": [],
+  "missing": [],
+  "boundary": "This gate validates commercial order input only. It does not render, visually approve, package, or certify final commercial delivery."
+}
