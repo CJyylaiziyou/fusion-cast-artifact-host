@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "status": "ready",
+  "compiledAt": "2026-06-14T18:02:57.067Z",
+  "orderId": "fusion-cast-launch",
+  "templateId": "template.trainingExplainer60s",
+  "paths": {
+    "finalCreative": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/compiled/final-creative.json",
+    "timelineManifest": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/compiled/timeline-manifest.json",
+    "variantManifest": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/compiled/variant-manifest.json"
+  },
+  "checks": {
+    "orderGatePassed": true,
+    "privateCompiledFilesOnly": true,
+    "variantCount": 3,
+    "defaultTimelineStillProductLaunch20s": true
+  },
+  "boundary": "Compile creates order-private manifests only. It does not render and does not overwrite public default timeline or final creative inputs."
+}
