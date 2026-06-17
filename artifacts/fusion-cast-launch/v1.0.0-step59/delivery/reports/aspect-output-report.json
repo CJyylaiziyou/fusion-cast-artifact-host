@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "status": "ready",
+  "checkedAt": "2026-06-14T18:03:43.079Z",
+  "orderId": "fusion-cast-launch",
+  "orderAspectRatio": "16:9",
+  "templateId": "template.trainingExplainer60s",
+  "requestedProfiles": [
+    "16:9",
+    "9:16",
+    "1:1"
+  ],
+  "outputDir": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs",
+  "manifest": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery/manifests/aspect-output-manifest.json",
+  "profiles": [
+    {
+      "id": "16:9",
+      "slug": "16x9",
+      "mediaDimensions": "1920x1080",
+      "proofFrameCount": 7,
+      "safeAreaOk": true,
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/main.mp4",
+      "deliveryMp4": "mp4/aspects/16x9/main.mp4",
+      "bytes": 9187659,
+      "sha256": "3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78"
+    },
+    {
+      "id": "9:16",
+      "slug": "9x16",
+      "mediaDimensions": "1080x1920",
+      "proofFrameCount": 7,
+      "safeAreaOk": true,
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/main.mp4",
+      "deliveryMp4": "mp4/aspects/9x16/main.mp4",
+      "bytes": 4359574,
+      "sha256": "C571748DFF48E1BEBEA50E1F068AB77DE8996AEA9C486DFC71536DC91C9EA0B1"
+    },
+    {
+      "id": "1:1",
+      "slug": "1x1",
+      "mediaDimensions": "1080x1080",
+      "proofFrameCount": 7,
+      "safeAreaOk": true,
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/main.mp4",
+      "deliveryMp4": "mp4/aspects/1x1/main.mp4",
+      "bytes": 3861542,
+      "sha256": "B8B1B83AF41D5A898860C62A0AFD85B4C92391E9F1D0318C84AFD8F8F1E234A2"
+    }
+  ],
+  "checks": {
+    "allSafeAreaQaOk": true,
+    "allMediaDimensionsOk": true,
+    "allProofDimensionsOk": true,
+    "foregroundFramePreserved": true,
+    "destructiveForegroundCrop": false
+  },
+  "boundary": "ok=true proves deterministic aspect outputs, proof frames, safe-area containment for adapted foregrounds, and package manifest wiring. It does not prove native vertical re-layout or final human art-direction approval.",
+  "deliveryHashReport": {
+    "hashCount": 81,
+    "checkedHashCount": 80,
+    "allHashMatch": true
+  }
+}
