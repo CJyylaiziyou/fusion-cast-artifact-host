@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "status": "ready",
+  "checkedAt": "2026-06-14T18:03:43.456Z",
+  "orderId": "fusion-cast-launch",
+  "templateId": "template.trainingExplainer60s",
+  "durationSeconds": 60,
+  "mode": "voiceover",
+  "schemaValid": true,
+  "captionItemCount": 7,
+  "captionFormats": [
+    "vtt",
+    "srt"
+  ],
+  "generated": {
+    "vtt": ".global-tools/outputs/commercial-orders/fusion-cast-launch/captions/fusion-cast-launch.vtt",
+    "srt": ".global-tools/outputs/commercial-orders/fusion-cast-launch/captions/fusion-cast-launch.srt",
+    "transcript": ".global-tools/outputs/commercial-orders/fusion-cast-launch/captions/fusion-cast-launch-transcript.txt",
+    "deliveryVtt": "captions/fusion-cast-launch.vtt",
+    "deliverySrt": "captions/fusion-cast-launch.srt",
+    "deliveryTranscript": "captions/fusion-cast-launch-transcript.txt",
+    "deliveryMusic": "audio/fusion-cast-music-bed.wav",
+    "deliveryVoiceover": "audio/fusion-cast-voiceover-zh.wav"
+  },
+  "checks": {
+    "step45AspectReportOk": true,
+    "packageReportOk": true,
+    "captionTimingOk": true,
+    "captionApproved": true,
+    "audioModeSupported": true,
+    "modeRequirementsSatisfied": true,
+    "musicAssigned": true,
+    "voiceoverAssigned": true,
+    "assignedMusicApproved": true,
+    "assignedVoiceoverApproved": true,
+    "transcriptIncluded": true
+  },
+  "loudnessReport": ".global-tools/outputs/commercial-orders/fusion-cast-launch/reports/loudness-report.json",
+  "boundary": "ok=true proves schema-valid audio/caption metadata, generated VTT/SRT/transcript files, mode-aware loudness metadata, and delivery package wiring. It does not prove final mastered audio or human release approval by itself.",
+  "deliverySync": {
+    "deliveryDir": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery",
+    "packageManifest": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery/commercial-package-manifest.json",
+    "assetHashes": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery/asset-hashes.json",
+    "hashUpdate": {
+      "updated": true,
+      "hashCount": 81,
+      "refreshedPackagePaths": 80
+    },
+    "allPackageFilesNonEmpty": true,
+    "allHashMatch": true,
+    "fileCount": 81,
+    "hashCount": 81
+  }
+}
