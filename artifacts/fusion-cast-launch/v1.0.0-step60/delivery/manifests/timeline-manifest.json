@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "templateId": "template.trainingExplainer60s",
+  "compositionId": "ManifestDrivenVideo",
+  "sourceStudyId": "remotion-training-explainer-60s",
+  "sourceVideoType": "trainingExplainer60s",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationFrames": 1800,
+  "durationSeconds": 60,
+  "learningBoundary": "Only video structure, duration, scene role, information density, copy pattern, motion rhythm, aspect ratio, and proof points are learned from Remotion.",
+  "scenes": [
+    {
+      "id": "01-lesson-objective",
+      "type": "lessonObjective",
+      "role": "lesson objective",
+      "from": 0,
+      "durationFrames": 180,
+      "copyKey": "lesson objective",
+      "requiredInputs": [
+        "objective"
+      ],
+      "visualPattern": "learning promise and audience",
+      "copyPattern": "what viewer will learn",
+      "motionPattern": "calm reveal",
+      "rendererStatus": "coveredByCategoryHero"
+    },
+    {
+      "id": "02-context-setup",
+      "type": "problemSetup",
+      "role": "context setup",
+      "from": 180,
+      "durationFrames": 240,
+      "copyKey": "context setup",
+      "requiredInputs": [
+        "problemLine"
+      ],
+      "visualPattern": "why the procedure matters",
+      "copyPattern": "workplace or learner context",
+      "motionPattern": "cards build",
+      "rendererStatus": "planned"
+    },
+    {
+      "id": "03-concept-model",
+      "type": "mechanismExplain",
+      "role": "concept model",
+      "from": 420,
+      "durationFrames": 300,
+      "copyKey": "concept model",
+      "requiredInputs": [
+        "mechanismLine"
+      ],
+      "visualPattern": "simple model before procedure",
+      "copyPattern": "concept explanation",
+      "motionPattern": "diagram build",
+      "rendererStatus": "coveredBySolutionReveal"
+    },
+    {
+      "id": "04-step-by-step",
+      "type": "stepByStep",
+      "role": "step by step",
+      "from": 720,
+      "durationFrames": 600,
+      "copyKey": "step by step",
+      "requiredInputs": [
+        "steps"
+      ],
+      "visualPattern": "ordered procedure with examples",
+      "copyPattern": "step labels and explanations",
+      "motionPattern": "paced walkthrough",
+      "rendererStatus": "coveredByFeatureProof"
+    },
+    {
+      "id": "05-practice-prompt",
+      "type": "practicePrompt",
+      "role": "practice prompt",
+      "from": 1320,
+      "durationFrames": 210,
+      "copyKey": "practice prompt",
+      "requiredInputs": [
+        "prompt"
+      ],
+      "visualPattern": "viewer applies the lesson",
+      "copyPattern": "small task prompt",
+      "motionPattern": "pause and highlight",
+      "rendererStatus": "coveredByUseCaseMontage"
+    },
+    {
+      "id": "06-recap",
+      "type": "recap",
+      "role": "recap",
+      "from": 1530,
+      "durationFrames": 180,
+      "copyKey": "recap",
+      "requiredInputs": [
+        "takeaways"
+      ],
+      "visualPattern": "key takeaways grouped cleanly",
+      "copyPattern": "summary bullets",
+      "motionPattern": "ordered recap",
+      "rendererStatus": "coveredByExistingCta"
+    },
+    {
+      "id": "07-cta",
+      "type": "ctaEndCard",
+      "role": "cta",
+      "from": 1710,
+      "durationFrames": 90,
+      "copyKey": "cta",
+      "requiredInputs": [
+        "brand",
+        "cta"
+      ],
+      "visualPattern": "next module or action",
+      "copyPattern": "continue learning action",
+      "motionPattern": "hold",
+      "rendererStatus": "coveredByExistingCta"
+    }
+  ],
+  "proofFrames": [
+    {
+      "id": "01-lesson-objective",
+      "seconds": 2
+    },
+    {
+      "id": "02-context-setup",
+      "seconds": 8
+    },
+    {
+      "id": "03-concept-model",
+      "seconds": 16.5
+    },
+    {
+      "id": "04-step-by-step",
+      "seconds": 28
+    },
+    {
+      "id": "05-practice-prompt",
+      "seconds": 46
+    },
+    {
+      "id": "06-recap",
+      "seconds": 53
+    },
+    {
+      "id": "07-cta",
+      "seconds": 58.5
+    }
+  ],
+  "commercialOrder": {
+    "orderId": "fusion-cast-launch",
+    "compiledAt": "2026-06-14T18:02:57.065Z",
+    "sourceOrder": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/order.json",
+    "sourceTimeline": ".global-tools/video-tools/template-intelligence/compiled/template.trainingExplainer60s.timeline.json"
+  }
+}
