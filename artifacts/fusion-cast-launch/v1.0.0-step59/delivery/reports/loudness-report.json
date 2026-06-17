@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "status": "ready",
+  "checkedAt": "2026-06-14T18:03:43.445Z",
+  "orderId": "fusion-cast-launch",
+  "mode": "voiceover",
+  "hasMusic": true,
+  "hasVoiceover": true,
+  "integratedLufs": "assigned-audio-not-loudness-measured",
+  "truePeakDb": "assigned-audio-not-loudness-measured",
+  "checks": {
+    "silentModeHasNoRequiredAudioAsset": false,
+    "musicModeRequiresAssignedMusic": true,
+    "voiceoverModeRequiresAssignedVoiceover": true,
+    "assignedMusicApproved": true,
+    "assignedVoiceoverApproved": true
+  },
+  "boundary": "Step 46 loudness proof is mode-aware metadata. Assigned audio is copied into the delivery package, but this script does not perform mastered LUFS/true-peak analysis."
+}
