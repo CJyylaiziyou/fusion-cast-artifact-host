@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "fusion-cast.manual-review.v1",
+  "reviewRecord": {
+    "reviewer": "Codex release operator",
+    "reviewedAt": "2026-06-14T18:12:00Z",
+    "checklistVersion": "legacy-checklist-v1",
+    "decision": "APPROVED",
+    "notes": "Generated from legacy manual-review-checklist.md release approval line.",
+    "artifactHash": "sha256-3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78",
+    "manifestHash": "sha256-A6A353665F4370408AA0F9FBD01C82CF92E21485FA664A72597B641BB2B3156C"
+  },
+  "sourceChecklist": ".global-tools/outputs/commercial-orders/fusion-cast-launch/visual-qa/manual-review-checklist.md",
+  "generatedBy": "validate-engine-contract.mjs",
+  "generatedAt": "2026-06-16T16:21:31.608Z"
+}
