@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "status": "ready",
+  "packagedAt": "2026-06-14T18:02:57.182Z",
+  "orderId": "fusion-cast-launch",
+  "deliveryDir": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery",
+  "fileCount": 46,
+  "hashCount": 46,
+  "hashCheckedCount": 45,
+  "checks": {
+    "compileOk": true,
+    "renderOk": true,
+    "variantsOk": true,
+    "mainProofOk": true,
+    "variantCount": 3,
+    "allPresentNonEmpty": true,
+    "allHashMatch": true
+  },
+  "boundary": "M1 package proves non-sample order to main video, 3 variants, proof artifacts, manifests, and hash package. Final delivery still requires visual QA, multi-format, audio/captions, manual approval, and release gate."
+}
