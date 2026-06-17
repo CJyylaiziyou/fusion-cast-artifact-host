@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "orderId": "fusion-cast-launch",
+  "brandName": "融合铸影",
+  "logoPath": "assets/fusion-cast-logo-cn.png",
+  "colors": ["#0078D4", "#2DD4BF", "#8B5CF6"],
+  "fontFallback": "Microsoft YaHei UI, Segoe UI, Arial, sans-serif",
+  "usageBoundary": "融合铸影中文发布会视频专用品牌包；现阶段不输出英文版。"
+}
