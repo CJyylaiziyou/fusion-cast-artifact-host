@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "orderId": "fusion-cast-launch",
+  "templateId": "template.trainingExplainer60s",
+  "durationSeconds": 60,
+  "audio": {
+    "mode": "voiceover",
+    "musicSlot": {
+      "status": "assigned",
+      "path": "assets/fusion-cast-music-bed.wav",
+      "source": "local-ffmpeg-generated-music-bed",
+      "license": "programmatic-original",
+      "approvalStatus": "approved",
+      "requiredForModes": ["music-only", "voiceover"]
+    },
+    "voiceoverSlot": {
+      "status": "assigned",
+      "path": "assets/fusion-cast-voiceover-zh.wav",
+      "source": "microsoft-edge-tts-zh-CN-XiaoxiaoNeural",
+      "license": "synthetic-tts-service",
+      "approvalStatus": "approved",
+      "requiredForModes": ["voiceover"]
+    },
+    "mixNotes": "此发布资产包含本机中文旁白和程序化生成背景音乐床；已包含中文字幕和文字稿。"
+  },
+  "captions": {
+    "language": "zh-CN",
+    "formats": ["vtt", "srt"],
+    "approved": true,
+    "approvalBy": "融合铸影本地发布审核员",
+    "approvalAt": "2026-06-14T12:55:00Z",
+    "items": [
+      {
+        "id": "objective",
+        "sourceSceneId": "01-lesson-objective",
+        "startSeconds": 0,
+        "endSeconds": 6,
+        "text": "融合铸影，把创意简报转化为可验证的商业视频交付。"
+      },
+      {
+        "id": "context",
+        "sourceSceneId": "02-context-setup",
+        "startSeconds": 6,
+        "endSeconds": 14,
+        "text": "市场不缺松散的生成工具，缺的是能负责到底的生产管线。"
+      },
+      {
+        "id": "model",
+        "sourceSceneId": "03-concept-model",
+        "startSeconds": 14,
+        "endSeconds": 24,
+        "text": "每个订单都会连接审批输入、私有时间线、渲染报告和截图证明。"
+      },
+      {
+        "id": "steps",
+        "sourceSceneId": "04-step-by-step",
+        "startSeconds": 24,
+        "endSeconds": 44,
+        "text": "创建订单，渲染主片，生成三条变体，打包证据，并通过发布门禁。"
+      },
+      {
+        "id": "pilot",
+        "sourceSceneId": "05-practice-prompt",
+        "startSeconds": 44,
+        "endSeconds": 51,
+        "text": "这次发布先开放少量试交付名额，服务真正要上线的产品团队。"
+      },
+      {
+        "id": "recap",
+        "sourceSceneId": "06-recap",
+        "startSeconds": 51,
+        "endSeconds": 57,
+        "text": "主视频、变体、字幕、视觉检查、哈希和最终发布报告会一起交付。"
+      },
+      {
+        "id": "cta",
+        "sourceSceneId": "07-cta",
+        "startSeconds": 57,
+        "endSeconds": 60,
+        "text": "预约融合铸影试交付。"
+      }
+    ]
+  },
+  "accessibility": {
+    "captionsRequired": true,
+    "transcriptIncluded": true,
+    "silentModeNotice": "此受控发布资产包含中文旁白、背景音乐床、中文字幕和文字稿。"
+  }
+}
