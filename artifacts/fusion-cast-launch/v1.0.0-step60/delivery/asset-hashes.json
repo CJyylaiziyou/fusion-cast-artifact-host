@@ -1,0 +1,500 @@
+[
+  {
+    "role": "asset-hashes",
+    "packagePath": "asset-hashes.json",
+    "bytes": 16551,
+    "sha256": "3454E9E0445AD0080076A166A70C263547D4F1A513307026B0503081F9F8110B"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "audio/fusion-cast-music-bed.wav",
+    "bytes": 11520078,
+    "sha256": "79421F87AE5CB181F71DC6F4F585FB2989B677745FC28FE8AAA75FE2C61450D3"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "audio/fusion-cast-voiceover-zh.wav",
+    "bytes": 9838158,
+    "sha256": "1A02781D6891CE07E1E6DA9C721588D35A8E336E2D8BCE8811EC6DFE03F145F2"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "captions/fusion-cast-launch-transcript.txt",
+    "bytes": 643,
+    "sha256": "41C391D31A89AC2908C2C97AAF541929BE89309BEC874A9EB8AE658FC53DE540"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "captions/fusion-cast-launch.srt",
+    "bytes": 768,
+    "sha256": "0D7B56344C751D45D959E98F3057786F0D57826DC14F5D283CA496D8018C60DB"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "captions/fusion-cast-launch.vtt",
+    "bytes": 808,
+    "sha256": "76A4393AFA14363C70CCFC65562E021B7AEA85632708B603CAE75903F778C22A"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "COMMERCIAL_RELEASE_NOTE.md",
+    "bytes": 1999,
+    "sha256": "91EFB07603424B4EE160D3EAF9D6834A2751BC681472D28685869D41A9C1D910"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "commercial-package-manifest.json",
+    "bytes": 3441,
+    "sha256": "B4E2DB76DDDB836DC5743A253AF3168A62E440ED70A38DFD5C4C4433D2596686"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "delivery-note.md",
+    "bytes": 989,
+    "sha256": "88ADA87A771990D09350792CD9440484426A8A6F649CB687E0170A320A7BB4BE"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manifests/aspect-output-manifest.json",
+    "bytes": 21264,
+    "sha256": "BA926DBC8D6A13EF756043BA5AA956C656F56C8F062A37F9BEC0FFDA94A1EA33"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manifests/audio-caption-manifest.json",
+    "bytes": 2925,
+    "sha256": "05D2784AC856FA9213D370AA5806C73B21BFD0DE9728038F0184E64654272AC3"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manifests/final-creative.json",
+    "bytes": 9416,
+    "sha256": "01CFA99BB1635F3F7DFD4B59DDE9E4D843301EF742EE30EAD1FA3EF10693FB80"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manifests/timeline-manifest.json",
+    "bytes": 4281,
+    "sha256": "B231EACAA06A2557C91774EF7C7B2D830EB8149E338BA22CDFE048D093C903C6"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manifests/variant-manifest.json",
+    "bytes": 3174,
+    "sha256": "E32D527325919F76C757B6B4347A373A23A7BE70AAA3CCB4E0D2CD697391220B"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "manual-review-record.json",
+    "bytes": 729,
+    "sha256": "6FB4D8AB7BF0C6F884321ACA4A4A825DD72134DE923E5A48CE6E76A8D7A54320"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/aspects/16x9/main.mp4",
+    "bytes": 9187659,
+    "sha256": "3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/aspects/1x1/main.mp4",
+    "bytes": 3861542,
+    "sha256": "B8B1B83AF41D5A898860C62A0AFD85B4C92391E9F1D0318C84AFD8F8F1E234A2"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/aspects/9x16/main.mp4",
+    "bytes": 4359574,
+    "sha256": "C571748DFF48E1BEBEA50E1F068AB77DE8996AEA9C486DFC71536DC91C9EA0B1"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/main.mp4",
+    "bytes": 9187659,
+    "sha256": "3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/variants/fusion-cast-launch-cta-variant.mp4",
+    "bytes": 9136022,
+    "sha256": "0BE01F04B4A77367BB0D0AC6AEC9173A9C77C2AEF32188EC8142FB9F061DA9B3"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/variants/fusion-cast-launch-headline-variant.mp4",
+    "bytes": 9158045,
+    "sha256": "E4668A27F49154043998651D96D61D72A9A3EF736CAD5F69BAE48A34843F2EF7"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "mp4/variants/fusion-cast-launch-heroImage-variant.mp4",
+    "bytes": 9179811,
+    "sha256": "9626763924EB28D8A22EA30DA972B8845ECC10B0AFCF5F534C7D647640AF368B"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/01-lesson-objective-mid.png",
+    "bytes": 663500,
+    "sha256": "5B8D4A214E7A6465ED7D1406A56FBF11C42DF4CB1F15CE46567538590F6D2A03"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/02-context-setup-mid.png",
+    "bytes": 394873,
+    "sha256": "5FF9D0EAD4C21F94DE388E09F13304A687BEE39A65D22B1AEA9C821CB65B810D"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/03-concept-model-mid.png",
+    "bytes": 590215,
+    "sha256": "0A4D3C1E52F1C1BA246881EC02E098F621CF90D9842CF6E1C069E7BB86C90E21"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/04-step-by-step-mid.png",
+    "bytes": 371081,
+    "sha256": "4399D1A693BBD23671658DA735F6ECD9BB39B8959C3BCD9F6C8F44AC31A353AF"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/05-practice-prompt-mid.png",
+    "bytes": 413357,
+    "sha256": "E432A71A127D2B84F0520A39946D2F4EB326AE527CF2FDECCEDC9F4A2F1C0323"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/06-recap-mid.png",
+    "bytes": 398656,
+    "sha256": "9AB9CEA59F26559FC23800B229AFB6E5A152ABD51944C0DB23E7BC03FFB17FE4"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/16x9/07-cta-mid.png",
+    "bytes": 446945,
+    "sha256": "8ADC0B5E3081D029F149C05E293DF78EC05FBC4BEB91B07ECADDC21D7EE843A0"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/01-lesson-objective-mid.png",
+    "bytes": 281853,
+    "sha256": "6AC1A6E8295D3BB267A5F62A38DE9FFCC13190C6DA534F7345E58993BB7BC304"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/02-context-setup-mid.png",
+    "bytes": 190577,
+    "sha256": "ADFAF35AE6BA78A2ECD8AB2C56A7AD60644D6B9F26D9EFD2766642021C2B7F03"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/03-concept-model-mid.png",
+    "bytes": 247811,
+    "sha256": "47A2A6018F074DF8747528C1DEFCD3A164868A76650E7CAE731F1BA238F37A8D"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/04-step-by-step-mid.png",
+    "bytes": 198135,
+    "sha256": "11C7346E5A35C6E1605F5BA3D107F6BA7EDFA34D2F6138AA6C70E6C0A9B1DB93"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/05-practice-prompt-mid.png",
+    "bytes": 226839,
+    "sha256": "C0A50B3617E49A2F682A69EA5F3B6A8DB856F8DEBCE949F42FF3D9199BA6C1F1"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/06-recap-mid.png",
+    "bytes": 235958,
+    "sha256": "F787138A34774E8FBEC8C6B9C6FED53443560CDA80DEF26505E320A6470B7260"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/1x1/07-cta-mid.png",
+    "bytes": 213105,
+    "sha256": "807EDD3561BD9102EADFDDA504E67ECC58DDC332B7ABCB364FDFFDA5FDF1B857"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/01-lesson-objective-mid.png",
+    "bytes": 347847,
+    "sha256": "B125FC3D664658316947A2EE31DF087F5694638A018F692CD73BE54A895784FD"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/02-context-setup-mid.png",
+    "bytes": 228059,
+    "sha256": "13D2B2D936115967B65D75AA907E721BD5BD8D4D5D9B72B9739FF377A02B9379"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/03-concept-model-mid.png",
+    "bytes": 291023,
+    "sha256": "CB9930CEFA65321D9399E57DF405FD942C1A921E01366B4D4B5F86774818D101"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/04-step-by-step-mid.png",
+    "bytes": 253359,
+    "sha256": "DE6A2AC539CC61292B6C9D5B00C04C2053B42ECC35EBEA01949E7700FE2BB568"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/05-practice-prompt-mid.png",
+    "bytes": 290970,
+    "sha256": "536C2ACDD5FFEF2AE03D65B582E2C8E3816D93764B75E939BFEE74C19B8FFEF0"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/06-recap-mid.png",
+    "bytes": 296326,
+    "sha256": "0F28034C127DC39D4C7109B1C2656FB4373E565D97D4792B8CB4B1E4DABCE0A8"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/aspects/9x16/07-cta-mid.png",
+    "bytes": 248901,
+    "sha256": "304DBC90402F0DCBD021D043759C1354DA7B03DEF1BE820552AF082D203E68DC"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/01-lesson-objective-frame.png",
+    "bytes": 618791,
+    "sha256": "92443EBA43EB4A9758C4B2843FC841AA1AE0DF9C0DA3F75A3B59072FD2897B6D"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/02-context-setup-frame.png",
+    "bytes": 389433,
+    "sha256": "C67A31D5EE9332B6FB88819FB42B0A59AA3E963E5C006B5857249557BAB9E36E"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/03-concept-model-frame.png",
+    "bytes": 573602,
+    "sha256": "700BA9E75D63575F6243124ABD86D6AFECE8529A341F4F8BCC7BEE2756278CCF"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/04-step-by-step-frame.png",
+    "bytes": 379366,
+    "sha256": "01AD2A34F94F2B708990F39EA015A32C24D77A43146DD7589768B56EE6AE22BF"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/05-practice-prompt-frame.png",
+    "bytes": 410640,
+    "sha256": "2AF2E659B99B06575C003786094E230184A2372201460F3AAC9C2968366D8993"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/06-recap-frame.png",
+    "bytes": 400689,
+    "sha256": "ADD555FDAC5E215F3F74E6EE93A72CF2CAE81B438FAE284B6E242F956A7FF81E"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/07-cta-frame.png",
+    "bytes": 446945,
+    "sha256": "8ADC0B5E3081D029F149C05E293DF78EC05FBC4BEB91B07ECADDC21D7EE843A0"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/cta-frame.png",
+    "bytes": 888780,
+    "sha256": "22FFF7E9C15F75A9439BDF6F472BA6DFE54E23D4B7914CD55B0D226E38222DB8"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/intro-frame.png",
+    "bytes": 1001805,
+    "sha256": "88639F9B9FA3E59ECB38262825284F90B20CB8B403FC3FA111CC093021DDAA35"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/main-render-proof-report.json",
+    "bytes": 5634,
+    "sha256": "BCB088F354F77C6B5224C08C1EE794783398FF5E1EFE2AEE108F19C58C37D84C"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/operating-frame.png",
+    "bytes": 320866,
+    "sha256": "99CF62B2FB4DEEA67CE7CBD02C57E4770715422E353609A3925136805E3AD922"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/main/premium-frame.png",
+    "bytes": 808183,
+    "sha256": "9B9E95BE1F0032B87D803D579863BA5D2DBCAAB133B4C0DDFAB5AC2FD5680AB8"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-cta/cta-frame.png",
+    "bytes": 585034,
+    "sha256": "5BA40A799770F2E57491A1D63C1CEB7CF5F4F49057F354380AF238902DBA1512"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-cta/intro-frame.png",
+    "bytes": 505680,
+    "sha256": "0939F063AB88694E1CCB821FEDBCCE0BFCB2E39263D966B599E3482828D90B94"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-cta/operating-frame.png",
+    "bytes": 390617,
+    "sha256": "0DA91AEFF313FD4804A212B7371026172AA2CC774B3F45F35ECAC8AB63AF93DD"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-cta/premium-frame.png",
+    "bytes": 580275,
+    "sha256": "F56E290453445E35CB8E1CF0B51CBE2D8A5C1AB63E29BFA42B2CCDD52ABCB6BC"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-cta/variant-render-proof-report.json",
+    "bytes": 3714,
+    "sha256": "419E9D0AC668AF45D5F9A5071BA9FB3CE8754DA08EA77F48B2FABCB223911304"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-headline/cta-frame.png",
+    "bytes": 585939,
+    "sha256": "F758F5ABA76D71429FF4BFAED6CFC7E2CF67EA2E859C16DF269A10AD5DA056EC"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-headline/intro-frame.png",
+    "bytes": 523004,
+    "sha256": "28ED8D7AFD52F2F2FD5F62769A2793084968D15E6D196E5AF502CD44FC32B73B"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-headline/operating-frame.png",
+    "bytes": 391038,
+    "sha256": "89BEA067D3BCD1B4F9AAF6890A8D17EE2637D20FA5F0B2E9D9CA45998F445ACE"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-headline/premium-frame.png",
+    "bytes": 579606,
+    "sha256": "0436E708AA2B4E90277BB290A49C2DB71A0F58A4B266326AC5198F05C2ED19FF"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-headline/variant-render-proof-report.json",
+    "bytes": 3745,
+    "sha256": "06E4DA37B489F3F677303B5C331EBFB47D1DCBA9007A0A84CEAAF35380308F1C"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-hero/cta-frame.png",
+    "bytes": 588087,
+    "sha256": "6FD4E5447B8614F760DCDD111650CE5BE28048BA1ACE32A77270BDA87D0595D1"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-hero/intro-frame.png",
+    "bytes": 518499,
+    "sha256": "C35DABB01E486827FA1B5D892A2E78F63E3AF87FB0B765D90DA1334829D871C9"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-hero/operating-frame.png",
+    "bytes": 396314,
+    "sha256": "5B1B692E528AE8297BA1B075B2F722ACD9702281871E6DBDE4FCB9D6CC6DA8F6"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-hero/premium-frame.png",
+    "bytes": 582248,
+    "sha256": "8F8F67E4A9F905FD4C120056DF47BFA4A1FE555BDFCA4F80850896828D39F68A"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "proofs/variants/fusion-cast-launch-hero/variant-render-proof-report.json",
+    "bytes": 3729,
+    "sha256": "2B0D9AA41C422F8EF1C4A261E06FB517C4A06C0907E9C8436D3EF51213740A80"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/aspect-output-report.json",
+    "bytes": 2247,
+    "sha256": "26B22A31C4759DF493FDAE0E1694F16D2B9E3088C6C44EF918FDAAD6B865B5DE"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/audio-caption-proof-report.json",
+    "bytes": 2248,
+    "sha256": "D8D529B541B90E14FD98D92564A9D18857322DF58249030D0D7B4A71DB127D13"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/compile-report.json",
+    "bytes": 854,
+    "sha256": "2503723DC66F2748A2DC9C0B60F45CA815B4B23B17A6A8C247F8F5F0DCCD73A6"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/loudness-report.json",
+    "bytes": 718,
+    "sha256": "7C78630E95C135D653D480D62D123793277CC6F282723A2B2AE04FF01801509C"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/order-gate-report.json",
+    "bytes": 3589,
+    "sha256": "1C3BFBEB92B5B8EE6FEDD571F620C385BA7B79D7E065C5CB75B28B692523886A"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/package-report.json",
+    "bytes": 693,
+    "sha256": "BD26A4DA9FD35A7B1EDC6F1622C8CA8D21DEE1B06758D49B1A60AAB8E54DF318"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/render-report.json",
+    "bytes": 1585,
+    "sha256": "CDFAE6FA7CB60B5556F16A4C38DFDC5AC71DA2727F773D0E329CD66692FBC17A"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "reports/variants-report.json",
+    "bytes": 1589,
+    "sha256": "36F5B618E9C718A5F85F0BFD32601165B7360BC2310174933E6F3402B524AFE2"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "source-summary/approval.json",
+    "bytes": 260,
+    "sha256": "0D7B4CCA9C2C2C0EB7CE8E96D0C0C34ECDA4DFAEBB151E8DDD638B8EA8DAA336"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "source-summary/asset-manifest.json",
+    "bytes": 938,
+    "sha256": "8E454FB0E950A7138A7897C6818316509C2CA3540BD58061E4BE4AA5EF13FEE5"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "source-summary/brand-kit.json",
+    "bytes": 359,
+    "sha256": "265CEAF6F7507EB0E1A2D481C8DC8FBA57D118A68EB250A92A182F5AB276DCA3"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "source-summary/copy-brief.json",
+    "bytes": 1607,
+    "sha256": "7A56425A3755DBDBCEC2A86147D914CA56CF3D6EE20312EC9F52B792B48B8970"
+  },
+  {
+    "role": "delivery-file",
+    "packagePath": "source-summary/order.json",
+    "bytes": 2792,
+    "sha256": "B439736D4D5D5E19F17684D6EF29D5225BBEC954AC419CE9028D22BCF370D007"
+  }
+]
