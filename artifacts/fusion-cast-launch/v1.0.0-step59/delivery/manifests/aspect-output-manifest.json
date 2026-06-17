@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "orderId": "fusion-cast-launch",
+  "templateId": "template.trainingExplainer60s",
+  "sourceMainMp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/delivery/mp4/main.mp4",
+  "sourceMediaInfo": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 60,
+    "frameRate": "30/1",
+    "frameCount": 1800
+  },
+  "createdAt": "2026-06-14T18:03:43.078Z",
+  "profiles": [
+    {
+      "id": "16:9",
+      "slug": "16x9",
+      "label": "Landscape 1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "adaptationMode": "native-source",
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/main.mp4",
+      "deliveryMp4": "mp4/aspects/16x9/main.mp4",
+      "bytes": 9187659,
+      "sha256": "3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78",
+      "mediaInfo": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 60,
+        "frameRate": "30/1",
+        "frameCount": 1800
+      },
+      "safeAreaQa": {
+        "ok": true,
+        "profileId": "16:9",
+        "adaptationMode": "native-source",
+        "safeAreaPx": {
+          "x": 67,
+          "y": 54,
+          "width": 1786,
+          "height": 972
+        },
+        "foregroundRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "foregroundInsideSafeArea": true,
+        "sourceFramePreserved": true,
+        "destructiveForegroundCrop": false,
+        "backgroundMayBeCropped": false,
+        "proofDimensionsOk": true,
+        "mediaDimensionsOk": true,
+        "boundary": "16:9 uses the native source frame. Safe area is recorded for downstream platform QA."
+      },
+      "proofFrames": [
+        {
+          "sceneId": "01-lesson-objective",
+          "sceneType": "lessonObjective",
+          "point": "mid",
+          "frame": 90,
+          "seconds": 3,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/01-lesson-objective-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/01-lesson-objective-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 663500
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 27,
+            "maxLuma": 251,
+            "averageLuma": 213.03,
+            "lumaRange": 224,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "02-context-setup",
+          "sceneType": "problemSetup",
+          "point": "mid",
+          "frame": 300,
+          "seconds": 10,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/02-context-setup-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/02-context-setup-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 394873
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 33,
+            "maxLuma": 254,
+            "averageLuma": 226.75,
+            "lumaRange": 221,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "03-concept-model",
+          "sceneType": "mechanismExplain",
+          "point": "mid",
+          "frame": 570,
+          "seconds": 19,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/03-concept-model-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/03-concept-model-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 590215
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 4,
+            "maxLuma": 241,
+            "averageLuma": 35.38,
+            "lumaRange": 237,
+            "nonBlackRatio": 0.9954
+          }
+        },
+        {
+          "sceneId": "04-step-by-step",
+          "sceneType": "stepByStep",
+          "point": "mid",
+          "frame": 1020,
+          "seconds": 34,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/04-step-by-step-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/04-step-by-step-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 371081
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 45,
+            "maxLuma": 255,
+            "averageLuma": 229.61,
+            "lumaRange": 210,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "05-practice-prompt",
+          "sceneType": "practicePrompt",
+          "point": "mid",
+          "frame": 1425,
+          "seconds": 47.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/05-practice-prompt-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/05-practice-prompt-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 413357
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 39,
+            "maxLuma": 255,
+            "averageLuma": 229.7,
+            "lumaRange": 216,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "06-recap",
+          "sceneType": "recap",
+          "point": "mid",
+          "frame": 1620,
+          "seconds": 54,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/06-recap-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/06-recap-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 398656
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 5,
+            "maxLuma": 236,
+            "averageLuma": 26.4,
+            "lumaRange": 231,
+            "nonBlackRatio": 0.9958
+          }
+        },
+        {
+          "sceneId": "07-cta",
+          "sceneType": "ctaEndCard",
+          "point": "mid",
+          "frame": 1755,
+          "seconds": 58.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/16x9/proof-frames/07-cta-mid.png",
+          "deliveryPath": "proofs/aspects/16x9/07-cta-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 446945
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 8,
+            "maxLuma": 255,
+            "averageLuma": 31.06,
+            "lumaRange": 247,
+            "nonBlackRatio": 0.9998
+          }
+        }
+      ]
+    },
+    {
+      "id": "9:16",
+      "slug": "9x16",
+      "label": "Vertical 1080x1920",
+      "width": 1080,
+      "height": 1920,
+      "adaptationMode": "preserve-full-frame-fit",
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/main.mp4",
+      "deliveryMp4": "mp4/aspects/9x16/main.mp4",
+      "bytes": 4359574,
+      "sha256": "C571748DFF48E1BEBEA50E1F068AB77DE8996AEA9C486DFC71536DC91C9EA0B1",
+      "mediaInfo": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 60,
+        "frameRate": "30/1",
+        "frameCount": 1800
+      },
+      "safeAreaQa": {
+        "ok": true,
+        "profileId": "9:16",
+        "adaptationMode": "preserve-full-frame-fit",
+        "safeAreaPx": {
+          "x": 54,
+          "y": 154,
+          "width": 972,
+          "height": 1613
+        },
+        "foregroundRect": {
+          "x": 54,
+          "y": 687,
+          "width": 972,
+          "height": 546
+        },
+        "foregroundInsideSafeArea": true,
+        "sourceFramePreserved": true,
+        "destructiveForegroundCrop": false,
+        "backgroundMayBeCropped": true,
+        "proofDimensionsOk": true,
+        "mediaDimensionsOk": true,
+        "boundary": "The complete 16:9 foreground frame is fit inside the safe area. The blurred background fill can crop because it is decorative only."
+      },
+      "proofFrames": [
+        {
+          "sceneId": "01-lesson-objective",
+          "sceneType": "lessonObjective",
+          "point": "mid",
+          "frame": 90,
+          "seconds": 3,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/01-lesson-objective-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/01-lesson-objective-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 347847
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 27,
+            "maxLuma": 240,
+            "averageLuma": 190.26,
+            "lumaRange": 213,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "02-context-setup",
+          "sceneType": "problemSetup",
+          "point": "mid",
+          "frame": 300,
+          "seconds": 10,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/02-context-setup-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/02-context-setup-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 228059
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 70,
+            "maxLuma": 248,
+            "averageLuma": 205.46,
+            "lumaRange": 178,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "03-concept-model",
+          "sceneType": "mechanismExplain",
+          "point": "mid",
+          "frame": 570,
+          "seconds": 19,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/03-concept-model-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/03-concept-model-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 291023
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 235,
+            "averageLuma": 12.83,
+            "lumaRange": 235,
+            "nonBlackRatio": 0.3286
+          }
+        },
+        {
+          "sceneId": "04-step-by-step",
+          "sceneType": "stepByStep",
+          "point": "mid",
+          "frame": 1020,
+          "seconds": 34,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/04-step-by-step-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/04-step-by-step-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 253359
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 36,
+            "maxLuma": 249,
+            "averageLuma": 205.97,
+            "lumaRange": 213,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "05-practice-prompt",
+          "sceneType": "practicePrompt",
+          "point": "mid",
+          "frame": 1425,
+          "seconds": 47.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/05-practice-prompt-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/05-practice-prompt-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 290970
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 56,
+            "maxLuma": 249,
+            "averageLuma": 205.21,
+            "lumaRange": 193,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "06-recap",
+          "sceneType": "recap",
+          "point": "mid",
+          "frame": 1620,
+          "seconds": 54,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/06-recap-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/06-recap-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 296326
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 166,
+            "averageLuma": 12.85,
+            "lumaRange": 166,
+            "nonBlackRatio": 0.4136
+          }
+        },
+        {
+          "sceneId": "07-cta",
+          "sceneType": "ctaEndCard",
+          "point": "mid",
+          "frame": 1755,
+          "seconds": 58.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/9x16/proof-frames/07-cta-mid.png",
+          "deliveryPath": "proofs/aspects/9x16/07-cta-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1920,
+            "bytes": 248901
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 219,
+            "averageLuma": 11.18,
+            "lumaRange": 219,
+            "nonBlackRatio": 0.3787
+          }
+        }
+      ]
+    },
+    {
+      "id": "1:1",
+      "slug": "1x1",
+      "label": "Square 1080x1080",
+      "width": 1080,
+      "height": 1080,
+      "adaptationMode": "preserve-full-frame-fit",
+      "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/main.mp4",
+      "deliveryMp4": "mp4/aspects/1x1/main.mp4",
+      "bytes": 3861542,
+      "sha256": "B8B1B83AF41D5A898860C62A0AFD85B4C92391E9F1D0318C84AFD8F8F1E234A2",
+      "mediaInfo": {
+        "width": 1080,
+        "height": 1080,
+        "duration": 60,
+        "frameRate": "30/1",
+        "frameCount": 1800
+      },
+      "safeAreaQa": {
+        "ok": true,
+        "profileId": "1:1",
+        "adaptationMode": "preserve-full-frame-fit",
+        "safeAreaPx": {
+          "x": 54,
+          "y": 65,
+          "width": 972,
+          "height": 950
+        },
+        "foregroundRect": {
+          "x": 54,
+          "y": 267,
+          "width": 972,
+          "height": 546
+        },
+        "foregroundInsideSafeArea": true,
+        "sourceFramePreserved": true,
+        "destructiveForegroundCrop": false,
+        "backgroundMayBeCropped": true,
+        "proofDimensionsOk": true,
+        "mediaDimensionsOk": true,
+        "boundary": "The complete 16:9 foreground frame is fit inside the safe area. The blurred background fill can crop because it is decorative only."
+      },
+      "proofFrames": [
+        {
+          "sceneId": "01-lesson-objective",
+          "sceneType": "lessonObjective",
+          "point": "mid",
+          "frame": 90,
+          "seconds": 3,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/01-lesson-objective-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/01-lesson-objective-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 281853
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 36,
+            "maxLuma": 252,
+            "averageLuma": 198.91,
+            "lumaRange": 216,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "02-context-setup",
+          "sceneType": "problemSetup",
+          "point": "mid",
+          "frame": 300,
+          "seconds": 10,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/02-context-setup-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/02-context-setup-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 190577
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 74,
+            "maxLuma": 252,
+            "averageLuma": 211.35,
+            "lumaRange": 178,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "03-concept-model",
+          "sceneType": "mechanismExplain",
+          "point": "mid",
+          "frame": 570,
+          "seconds": 19,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/03-concept-model-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/03-concept-model-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 247811
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 244,
+            "averageLuma": 20.85,
+            "lumaRange": 244,
+            "nonBlackRatio": 0.5203
+          }
+        },
+        {
+          "sceneId": "04-step-by-step",
+          "sceneType": "stepByStep",
+          "point": "mid",
+          "frame": 1020,
+          "seconds": 34,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/04-step-by-step-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/04-step-by-step-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 198135
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 59,
+            "maxLuma": 251,
+            "averageLuma": 212.3,
+            "lumaRange": 192,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "05-practice-prompt",
+          "sceneType": "practicePrompt",
+          "point": "mid",
+          "frame": 1425,
+          "seconds": 47.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/05-practice-prompt-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/05-practice-prompt-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 226839
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 65,
+            "maxLuma": 254,
+            "averageLuma": 210.93,
+            "lumaRange": 189,
+            "nonBlackRatio": 1
+          }
+        },
+        {
+          "sceneId": "06-recap",
+          "sceneType": "recap",
+          "point": "mid",
+          "frame": 1620,
+          "seconds": 54,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/06-recap-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/06-recap-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 235958
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 201,
+            "averageLuma": 18.79,
+            "lumaRange": 201,
+            "nonBlackRatio": 0.6809
+          }
+        },
+        {
+          "sceneId": "07-cta",
+          "sceneType": "ctaEndCard",
+          "point": "mid",
+          "frame": 1755,
+          "seconds": 58.5,
+          "path": ".global-tools/outputs/commercial-orders/fusion-cast-launch/aspect-outputs/1x1/proof-frames/07-cta-mid.png",
+          "deliveryPath": "proofs/aspects/1x1/07-cta-mid.png",
+          "png": {
+            "ok": true,
+            "signature": "89504E470D0A1A0A",
+            "width": 1080,
+            "height": 1080,
+            "bytes": 213105
+          },
+          "stats": {
+            "sampleSize": "64x64",
+            "minLuma": 0,
+            "maxLuma": 227,
+            "averageLuma": 18.85,
+            "lumaRange": 227,
+            "nonBlackRatio": 0.6145
+          }
+        }
+      ]
+    }
+  ],
+  "boundary": "Step 45 creates adaptive multi-aspect delivery outputs from the verified 16:9 commercial main render. 9:16 and 1:1 are full-frame fit outputs, not native vertical or square scene re-layouts."
+}
