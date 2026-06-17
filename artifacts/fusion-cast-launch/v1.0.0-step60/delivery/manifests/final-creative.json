@@ -1,0 +1,240 @@
+{
+  "targetBrand": "融合铸影",
+  "brandRules": {
+    "keepFusionOneDefaults": true,
+    "primary": "#0078D4",
+    "secondary": "#2DD4BF",
+    "accent": "#8B5CF6",
+    "logoPath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png",
+    "orderLogoPath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png",
+    "fontFallback": "Microsoft YaHei UI, Segoe UI, Arial, sans-serif"
+  },
+  "intro": {
+    "kicker": "融合铸影发布会",
+    "headline": "把创意简报，铸造成可交付的发布会视频。",
+    "subline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+    "product": "融合铸影"
+  },
+  "lightSweep": {
+    "style": "Use a restrained blue-green highlight across the operating view and product metrics.",
+    "operatingHeadline": "让发布会视频从创意开始，就带着证据走向交付。",
+    "timelineInputTitle": "订单输入",
+    "timelineInputDetail": "品牌、中文文案、资产、范围和审批进入同一份商业订单。",
+    "timelineRenderTitle": "受控生产",
+    "timelineRenderDetail": "私有时间线生成主片、变体、字幕、截图证明和交付报告。",
+    "dashboardTitle": "融合铸影发布控制台"
+  },
+  "transition": {
+    "style": "Use fast editorial wipes between the launch title, operating dashboard, AE motion slot, and CTA.",
+    "timing": "Keep existing ProductionDemo scene order and frame timing."
+  },
+  "premiumClip": {
+    "headline": "不是生成一段视频，而是交付一套可复核的发布资产。"
+  },
+  "assetManifest": {
+    "provider": "commercial-order-local-assets",
+    "dreamina": {
+      "provider": "commercial-order-local-assets",
+      "status": "replaced-by-order-generated-graphics",
+      "heroImagePath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-stage-v5.png",
+      "backgroundImagePath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png",
+      "items": [
+        {
+          "id": "fusion-cast-logo",
+          "kind": "logo",
+          "path": "commercial-orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png",
+          "source": "local-generated",
+          "sha256": "BC607545AD552CCC08253AE70ED5CF3D44B11EA67A09CB57B5785C156FEFF7C3"
+        },
+        {
+          "id": "fusion-cast-main-stage",
+          "kind": "heroImage",
+          "path": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-stage-v5.png",
+          "source": "dreamina-cli-text2image-v5-cn-prompt",
+          "sha256": "D31ADA3150FE4934ED3F6490E8D35DE5A37325D09206DA6B1C726ED88622C895"
+        },
+        {
+          "id": "fusion-cast-pipeline-board",
+          "kind": "proofGraphic",
+          "path": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png",
+          "source": "dreamina-cli-text2image-v5-cn-prompt",
+          "sha256": "5A18E92404BBE1285CBB05A3273946F4674FB418227FA58FCAC3B84C2BAE7D38"
+        }
+      ]
+    },
+    "hyperframes": {
+      "provider": "disabled-for-fusion-cast-cn-launch",
+      "status": "disabled",
+      "src": "",
+      "boundary": "This Chinese launch order does not use old HyperFrames or prior product imagery."
+    },
+    "commercialOrder": {
+      "orderId": "fusion-cast-launch",
+      "assets": [
+        {
+          "id": "fusion-cast-logo",
+          "kind": "logo",
+          "path": "assets/fusion-cast-logo-cn.png",
+          "required": true,
+          "source": "local-generated",
+          "sha256": "BC607545AD552CCC08253AE70ED5CF3D44B11EA67A09CB57B5785C156FEFF7C3",
+          "sourcePath": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png",
+          "publicPath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png"
+        },
+        {
+          "id": "fusion-cast-main-stage",
+          "kind": "heroImage",
+          "path": "assets/fusion-cast-minimal-stage-v5.png",
+          "required": true,
+          "source": "dreamina-cli-text2image-v5-cn-prompt",
+          "sha256": "D31ADA3150FE4934ED3F6490E8D35DE5A37325D09206DA6B1C726ED88622C895",
+          "sourcePath": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/assets/fusion-cast-minimal-stage-v5.png",
+          "publicPath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-stage-v5.png"
+        },
+        {
+          "id": "fusion-cast-pipeline-board",
+          "kind": "proofGraphic",
+          "path": "assets/fusion-cast-minimal-proof-v5.png",
+          "required": true,
+          "source": "dreamina-cli-text2image-v5-cn-prompt",
+          "sha256": "5A18E92404BBE1285CBB05A3273946F4674FB418227FA58FCAC3B84C2BAE7D38",
+          "sourcePath": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png",
+          "publicPath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "headline": "首批开放三个中文试交付。",
+    "action": "预约试交付"
+  },
+  "creativeApproval": {
+    "finalCreativeApproved": true,
+    "approvedBy": "融合铸影本地发布审核员",
+    "approvedAt": "2026-06-14"
+  },
+  "launchMetrics": [
+    {
+      "label": "订单门禁",
+      "value": "OK",
+      "detail": "品牌、文案、资产、审批和范围先通过输入检查。",
+      "accent": "#2DD4BF"
+    },
+    {
+      "label": "证明资产",
+      "value": "6类",
+      "detail": "主片、变体、截图、字幕、哈希和报告一起交付。",
+      "accent": "#0078D4"
+    },
+    {
+      "label": "发布状态",
+      "value": "门禁",
+      "detail": "只有视觉检查、人工审片和发布门禁同意时才发布。",
+      "accent": "#8B5CF6"
+    }
+  ],
+  "launchFeatures": [
+    {
+      "index": "01",
+      "title": "中文发布会主片",
+      "body": "围绕融合铸影本身组织镜头，不混入旧产品图或无关插画。",
+      "color": "#0078D4"
+    },
+    {
+      "index": "02",
+      "title": "证据化生产",
+      "body": "每次渲染都保留帧数、截图、字幕、哈希和包清单。",
+      "color": "#2DD4BF"
+    },
+    {
+      "index": "03",
+      "title": "商业交付边界",
+      "body": "先做少量试交付，验证真实客户发布流程，再扩大开放。",
+      "color": "#8B5CF6"
+    }
+  ],
+  "launchCaptions": [
+    {
+      "from": 0,
+      "to": 180,
+      "text": "融合铸影，把创意简报转化为可验证的商业视频交付。"
+    },
+    {
+      "from": 180,
+      "to": 420,
+      "text": "市场不缺松散的生成工具，缺的是能负责到底的生产管线。"
+    },
+    {
+      "from": 420,
+      "to": 720,
+      "text": "每个订单都会连接审批输入、私有时间线、渲染报告和截图证明。"
+    },
+    {
+      "from": 720,
+      "to": 1320,
+      "text": "创建订单，渲染主片，生成三条变体，打包证据，并通过发布门禁。"
+    },
+    {
+      "from": 1320,
+      "to": 1530,
+      "text": "这次发布先开放少量试交付名额，服务真正要上线的产品团队。"
+    },
+    {
+      "from": 1530,
+      "to": 1710,
+      "text": "主视频、变体、字幕、视觉检查、哈希和最终发布报告会一起交付。"
+    },
+    {
+      "from": 1710,
+      "to": 1800,
+      "text": "预约融合铸影试交付。"
+    }
+  ],
+  "commercialOrder": {
+    "orderId": "fusion-cast-launch",
+    "orderType": "trainingExplainer",
+    "templateId": "template.trainingExplainer60s",
+    "aspectRatio": "16:9",
+    "durationSeconds": 60,
+    "sample": false,
+    "audio": {
+      "mode": "voiceover",
+      "musicPath": "final-creative/commercial-orders/fusion-cast-launch/assets/fusion-cast-music-bed.wav",
+      "voiceoverPath": "final-creative/commercial-orders/fusion-cast-launch/assets/fusion-cast-voiceover-zh.wav",
+      "musicVolume": 0.14,
+      "voiceoverVolume": 0.95
+    },
+    "orderAssetManifest": [
+      {
+        "id": "fusion-cast-logo",
+        "kind": "logo",
+        "path": "assets/fusion-cast-logo-cn.png",
+        "required": true,
+        "source": "local-generated",
+        "sha256": "BC607545AD552CCC08253AE70ED5CF3D44B11EA67A09CB57B5785C156FEFF7C3"
+      },
+      {
+        "id": "fusion-cast-main-stage",
+        "kind": "heroImage",
+        "path": "assets/fusion-cast-minimal-stage-v5.png",
+        "required": true,
+        "source": "dreamina-cli-text2image-v5-cn-prompt",
+        "sha256": "D31ADA3150FE4934ED3F6490E8D35DE5A37325D09206DA6B1C726ED88622C895"
+      },
+      {
+        "id": "fusion-cast-pipeline-board",
+        "kind": "proofGraphic",
+        "path": "assets/fusion-cast-minimal-proof-v5.png",
+        "required": true,
+        "source": "dreamina-cli-text2image-v5-cn-prompt",
+        "sha256": "5A18E92404BBE1285CBB05A3273946F4674FB418227FA58FCAC3B84C2BAE7D38"
+      }
+    ],
+    "renderVisibleAssets": [
+      "commercial-orders/fusion-cast-launch/assets/fusion-cast-logo-cn.png",
+      "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-stage-v5.png",
+      "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png"
+    ],
+    "boundary": "Order assets are copied into an order-private public final-creative directory and are render-visible for this commercial output. Old sample, Dreamina, Haofeng, and HyperFrames imagery is not used by this order."
+  }
+}
