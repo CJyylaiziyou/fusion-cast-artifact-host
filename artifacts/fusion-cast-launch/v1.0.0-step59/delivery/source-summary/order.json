@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sample": false,
+  "orderId": "fusion-cast-launch",
+  "orderType": "trainingExplainer",
+  "brandName": "融合铸影",
+  "templateId": "template.trainingExplainer60s",
+  "aspectRatio": "16:9",
+  "durationSeconds": 60,
+  "copyBrief": {
+    "headline": "把创意简报，铸造成可交付的发布会视频。",
+    "subheadline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+    "cta": "预约试交付",
+    "notes": "仅用于融合铸影中文发布会视频生产；现阶段不输出英文版。"
+  },
+  "brandKit": {
+    "logoPath": "assets/fusion-cast-logo-cn.png",
+    "colors": ["#0078D4", "#2DD4BF", "#8B5CF6"],
+    "fontFallback": "Microsoft YaHei UI, Segoe UI, Arial, sans-serif"
+  },
+  "assets": [
+    {
+      "id": "fusion-cast-logo",
+      "kind": "logo",
+      "path": "assets/fusion-cast-logo-cn.png",
+      "required": true,
+      "source": "local-generated",
+      "sha256": "BC607545AD552CCC08253AE70ED5CF3D44B11EA67A09CB57B5785C156FEFF7C3"
+    },
+    {
+      "id": "fusion-cast-main-stage",
+      "kind": "heroImage",
+      "path": "assets/fusion-cast-minimal-stage-v5.png",
+      "required": true,
+      "source": "dreamina-cli-text2image-v5-cn-prompt",
+      "sha256": "D31ADA3150FE4934ED3F6490E8D35DE5A37325D09206DA6B1C726ED88622C895"
+    },
+    {
+      "id": "fusion-cast-pipeline-board",
+      "kind": "proofGraphic",
+      "path": "assets/fusion-cast-minimal-proof-v5.png",
+      "required": true,
+      "source": "dreamina-cli-text2image-v5-cn-prompt",
+      "sha256": "5A18E92404BBE1285CBB05A3273946F4674FB418227FA58FCAC3B84C2BAE7D38"
+    }
+  ],
+  "approval": {
+    "status": "approved",
+    "approvedBy": "融合铸影本地发布审核员",
+    "approvedAt": "2026-06-14T12:55:00Z"
+  },
+  "outputRequirements": {
+    "deliverables": [
+      "mainMp4",
+      "threeVariants",
+      "proofFrames",
+      "metadata",
+      "hashManifest",
+      "deliveryNote",
+      "deliveryPackage",
+      "captionFiles",
+      "audioMetadata"
+    ],
+    "packageSpec": {
+      "schemaVersion": 1,
+      "packageId": "fusion-cast-launch-package",
+      "orderId": "fusion-cast-launch",
+      "requiredFiles": [
+        "mp4/main.mp4",
+        "mp4/variants",
+        "delivery-note.md",
+        "asset-hashes.json"
+      ],
+      "requiredReports": [
+        "reports/render-report.json",
+        "reports/visual-qa-report.json",
+        "reports/package-report.json",
+        "reports/audio-caption-proof-report.json",
+        "reports/loudness-report.json"
+      ],
+      "hashRequired": true,
+      "forbiddenClaims": [
+        "arbitraryVideoStyleReplication",
+        "fullyAutomatedAepRepair",
+        "automaticFinalArtDirectionApproval",
+        "commercialFinalDeliveryBeforeReleaseGate"
+      ]
+    }
+  }
+}
