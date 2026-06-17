@@ -1,0 +1,190 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-14T17:53:50.013Z",
+  "videoPath": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\mp4\\main.mp4",
+  "videoBytes": 9187659,
+  "proofDir": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main",
+  "metadata": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "duration": "60.000000",
+    "nb_frames": "1800",
+    "side_data_list": [
+      {}
+    ]
+  },
+  "expected": {
+    "frames": 1800,
+    "durationMin": 59.75,
+    "durationMax": 60.25
+  },
+  "checks": {
+    "videoExists": true,
+    "codecOk": true,
+    "dimensionsOk": true,
+    "fpsOk": true,
+    "framesOk": true,
+    "durationOk": true,
+    "proofFramesOk": true,
+    "sampledContentOk": true
+  },
+  "frames": [
+    {
+      "id": "01-lesson-objective",
+      "label": "01-lesson-objective frame",
+      "seconds": 2,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\01-lesson-objective-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 618791
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 33,
+        "maxLuma": 251,
+        "averageLuma": 210.55,
+        "lumaRange": 218,
+        "nonBlackRatio": 1,
+        "nonWhiteRatio": 0.9965
+      }
+    },
+    {
+      "id": "02-context-setup",
+      "label": "02-context-setup frame",
+      "seconds": 8,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\02-context-setup-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 389433
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 61,
+        "maxLuma": 249,
+        "averageLuma": 224.26,
+        "lumaRange": 188,
+        "nonBlackRatio": 1,
+        "nonWhiteRatio": 0.9948
+      }
+    },
+    {
+      "id": "03-concept-model",
+      "label": "03-concept-model frame",
+      "seconds": 16.5,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\03-concept-model-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 573602
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 5,
+        "maxLuma": 240,
+        "averageLuma": 26.05,
+        "lumaRange": 235,
+        "nonBlackRatio": 0.9271,
+        "nonWhiteRatio": 1
+      }
+    },
+    {
+      "id": "04-step-by-step",
+      "label": "04-step-by-step frame",
+      "seconds": 28,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\04-step-by-step-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 379366
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 60,
+        "maxLuma": 250,
+        "averageLuma": 227.85,
+        "lumaRange": 190,
+        "nonBlackRatio": 1,
+        "nonWhiteRatio": 0.9206
+      }
+    },
+    {
+      "id": "05-practice-prompt",
+      "label": "05-practice-prompt frame",
+      "seconds": 46,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\05-practice-prompt-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 410640
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 41,
+        "maxLuma": 254,
+        "averageLuma": 227.51,
+        "lumaRange": 213,
+        "nonBlackRatio": 1,
+        "nonWhiteRatio": 0.9141
+      }
+    },
+    {
+      "id": "06-recap",
+      "label": "06-recap frame",
+      "seconds": 53,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\06-recap-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 400689
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 2,
+        "maxLuma": 220,
+        "averageLuma": 23.39,
+        "lumaRange": 218,
+        "nonBlackRatio": 0.9822,
+        "nonWhiteRatio": 1
+      }
+    },
+    {
+      "id": "07-cta",
+      "label": "07-cta frame",
+      "seconds": 58.5,
+      "path": "C:\\Users\\Administrator\\Documents\\New project 2\\.global-tools\\outputs\\commercial-orders\\fusion-cast-launch\\proofs\\main\\07-cta-frame.png",
+      "png": {
+        "ok": true,
+        "signature": "89504E470D0A1A0A",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 446945
+      },
+      "stats": {
+        "sampleSize": "64x36",
+        "minLuma": 8,
+        "maxLuma": 248,
+        "averageLuma": 28.08,
+        "lumaRange": 240,
+        "nonBlackRatio": 0.9974,
+        "nonWhiteRatio": 0.9996
+      }
+    }
+  ],
+  "boundary": "This proof verifies render metadata, extracted PNG frames, and basic non-blank pixel statistics. It does not replace human review of final brand art direction."
+}
