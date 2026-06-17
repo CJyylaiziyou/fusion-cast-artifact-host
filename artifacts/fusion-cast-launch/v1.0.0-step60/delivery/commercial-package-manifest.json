@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "packageId": "fusion-cast-launch-commercial-delivery-m1",
+  "orderId": "fusion-cast-launch",
+  "createdAt": "2026-06-14T18:02:57.142Z",
+  "mainMp4": "mp4/main.mp4",
+  "variants": [
+    {
+      "variantId": "fusion-cast-launch-headline",
+      "mp4": "mp4/variants/fusion-cast-launch-headline-variant.mp4",
+      "proof": "proofs/variants/fusion-cast-launch-headline/variant-render-proof-report.json"
+    },
+    {
+      "variantId": "fusion-cast-launch-cta",
+      "mp4": "mp4/variants/fusion-cast-launch-cta-variant.mp4",
+      "proof": "proofs/variants/fusion-cast-launch-cta/variant-render-proof-report.json"
+    },
+    {
+      "variantId": "fusion-cast-launch-hero",
+      "mp4": "mp4/variants/fusion-cast-launch-heroImage-variant.mp4",
+      "proof": "proofs/variants/fusion-cast-launch-hero/variant-render-proof-report.json"
+    }
+  ],
+  "reports": {
+    "orderGate": "reports/order-gate-report.json",
+    "compile": "reports/compile-report.json",
+    "render": "reports/render-report.json",
+    "variants": "reports/variants-report.json",
+    "aspectOutputs": "reports/aspect-output-report.json",
+    "audioCaptionProof": "reports/audio-caption-proof-report.json",
+    "loudness": "reports/loudness-report.json"
+  },
+  "manifests": {
+    "finalCreative": "manifests/final-creative.json",
+    "timeline": "manifests/timeline-manifest.json",
+    "variants": "manifests/variant-manifest.json",
+    "aspectOutputs": "manifests/aspect-output-manifest.json",
+    "audioCaption": "manifests/audio-caption-manifest.json"
+  },
+  "assetHashes": "asset-hashes.json",
+  "forbiddenClaims": [
+    "commercialFinalDeliveryBeforeReleaseGate",
+    "automaticFinalArtDirectionApproval",
+    "allTemplatesCommercialReady",
+    "nativeVerticalLayoutSupported",
+    "automaticMusicLicensingClearance",
+    "humanVoiceoverPerformanceClaim"
+  ],
+  "aspectOutputs": [
+    {
+      "profileId": "16:9",
+      "mp4": "mp4/aspects/16x9/main.mp4",
+      "proofFrames": "proofs/aspects/16x9",
+      "safeAreaQa": "manifests/aspect-output-manifest.json#profiles/16:9/safeAreaQa"
+    },
+    {
+      "profileId": "9:16",
+      "mp4": "mp4/aspects/9x16/main.mp4",
+      "proofFrames": "proofs/aspects/9x16",
+      "safeAreaQa": "manifests/aspect-output-manifest.json#profiles/9:16/safeAreaQa"
+    },
+    {
+      "profileId": "1:1",
+      "mp4": "mp4/aspects/1x1/main.mp4",
+      "proofFrames": "proofs/aspects/1x1",
+      "safeAreaQa": "manifests/aspect-output-manifest.json#profiles/1:1/safeAreaQa"
+    }
+  ],
+  "step45Boundary": "Aspect outputs are adaptive full-frame deliverables. 9:16 and 1:1 preserve the complete 16:9 foreground inside a safe area over a blurred background; they are not native vertical scene re-layouts.",
+  "captions": {
+    "vtt": "captions/fusion-cast-launch.vtt",
+    "srt": "captions/fusion-cast-launch.srt",
+    "transcript": "captions/fusion-cast-launch-transcript.txt"
+  },
+  "audio": {
+    "mode": "voiceover",
+    "musicSlotStatus": "assigned",
+    "voiceoverSlotStatus": "assigned",
+    "music": "audio/fusion-cast-music-bed.wav",
+    "voiceover": "audio/fusion-cast-voiceover-zh.wav",
+    "loudnessReport": "reports/loudness-report.json"
+  },
+  "step46Boundary": "Audio/caption support is schema-backed and proofed for silent, music-only, and voiceover modes. This non-sample order uses approved captions plus assigned synthetic voiceover and programmatic music assets copied into the delivery package."
+}
