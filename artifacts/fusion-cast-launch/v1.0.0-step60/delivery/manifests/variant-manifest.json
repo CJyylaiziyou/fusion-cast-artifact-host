@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "baseManifest": "final-creative.json",
+  "sourceOrder": "fusion-cast-launch",
+  "variants": [
+    {
+      "variantId": "fusion-cast-launch-headline",
+      "locale": "en",
+      "brandKey": "fusionone",
+      "brandKeys": {
+        "campaign": "fusion-cast-launch",
+        "type": "headline",
+        "slot": "1"
+      },
+      "outputFileName": "fusion-cast-launch-headline-variant.mp4",
+      "proofOutputDir": "commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-headline",
+      "copyOverrides": {
+        "intro": {
+          "headline": "发布会视频，要有主片、变体、证明和门禁。",
+          "subline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+          "kicker": "融合铸影发布会",
+          "product": "融合铸影"
+        },
+        "cta": {
+          "headline": "发布会视频，要有主片、变体、证明和门禁。",
+          "action": "查看试交付"
+        }
+      },
+      "assetOverrides": {}
+    },
+    {
+      "variantId": "fusion-cast-launch-cta",
+      "locale": "en",
+      "brandKey": "fusionone",
+      "brandKeys": {
+        "campaign": "fusion-cast-launch",
+        "type": "cta",
+        "slot": "2"
+      },
+      "outputFileName": "fusion-cast-launch-cta-variant.mp4",
+      "proofOutputDir": "commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-cta",
+      "copyOverrides": {
+        "intro": {
+          "headline": "从智能生成，走向可负责的商业交付。",
+          "subline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+          "kicker": "融合铸影发布会",
+          "product": "融合铸影"
+        },
+        "cta": {
+          "headline": "从智能生成，走向可负责的商业交付。",
+          "action": "预约名额"
+        }
+      },
+      "assetOverrides": {}
+    },
+    {
+      "variantId": "fusion-cast-launch-hero",
+      "locale": "en",
+      "brandKey": "fusionone",
+      "brandKeys": {
+        "campaign": "fusion-cast-launch",
+        "type": "heroImage",
+        "slot": "3"
+      },
+      "outputFileName": "fusion-cast-launch-heroImage-variant.mp4",
+      "proofOutputDir": "commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-hero",
+      "copyOverrides": {
+        "intro": {
+          "headline": "一条管线，交付发布会主片和证据包。",
+          "subline": "从品牌素材、中文文案到渲染、审片、变体和发布门禁。",
+          "kicker": "融合铸影发布会",
+          "product": "融合铸影"
+        },
+        "cta": {
+          "headline": "一条管线，交付发布会主片和证据包。",
+          "action": "检查证明包"
+        }
+      },
+      "assetOverrides": {
+        "assetManifest.dreamina.heroImagePath": "commercial-orders/fusion-cast-launch/assets/fusion-cast-minimal-proof-v5.png"
+      }
+    }
+  ],
+  "inheritedPublicVariantManifest": ".global-tools/video-tools/public/final-creative/variant-manifest.json",
+  "boundary": "Order-private variant manifest. Does not replace public final-creative/variant-manifest.json."
+}
