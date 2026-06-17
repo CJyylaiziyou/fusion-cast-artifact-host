@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "status": "ready",
+  "renderedAt": "2026-06-14T17:53:50.074Z",
+  "orderId": "fusion-cast-launch",
+  "templateId": "template.trainingExplainer60s",
+  "paths": {
+    "mp4": ".global-tools/outputs/commercial-orders/fusion-cast-launch/mp4/main.mp4",
+    "proofDir": ".global-tools/outputs/commercial-orders/fusion-cast-launch/proofs/main",
+    "proofReport": ".global-tools/outputs/commercial-orders/fusion-cast-launch/proofs/main/main-render-proof-report.json",
+    "compileReport": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/compiled/compile-report.json"
+  },
+  "mp4": {
+    "bytes": 9187659,
+    "sha256": "3DF21710DCB9C823D64DF887BBAF7763C66E878DAF2B4D1619FA9FB71C10BF78"
+  },
+  "proof": {
+    "ok": true,
+    "checks": {
+      "videoExists": true,
+      "codecOk": true,
+      "dimensionsOk": true,
+      "fpsOk": true,
+      "framesOk": true,
+      "durationOk": true,
+      "proofFramesOk": true,
+      "sampledContentOk": true
+    },
+    "metadata": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "60.000000",
+      "nb_frames": "1800",
+      "side_data_list": [
+        {}
+      ]
+    }
+  },
+  "checks": {
+    "compileOk": true,
+    "defaultTimelineRestored": true,
+    "defaultFinalCreativeSource": ".global-tools/video-tools/public/final-creative/creative-inputs.json"
+  },
+  "boundary": "Commercial render uses order-private compiled manifests and restores generated default data after render. It does not modify ProductionDemo or public default timeline JSON."
+}
