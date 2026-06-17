@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "status": "ready",
+  "renderedAt": "2026-06-14T18:02:53.992Z",
+  "orderId": "fusion-cast-launch",
+  "variantManifest": ".global-tools/video-tools/commercial/orders/fusion-cast-launch/compiled/variant-manifest.json",
+  "rendered": [
+    {
+      "variantId": "fusion-cast-launch-headline",
+      "type": "headline",
+      "mp4": ".global-tools/outputs/fusion-cast-launch-headline-variant.mp4",
+      "mp4Exists": true,
+      "mp4Bytes": 9158045,
+      "proofReport": ".global-tools/outputs/commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-headline/variant-render-proof-report.json",
+      "proofOk": true
+    },
+    {
+      "variantId": "fusion-cast-launch-cta",
+      "type": "cta",
+      "mp4": ".global-tools/outputs/fusion-cast-launch-cta-variant.mp4",
+      "mp4Exists": true,
+      "mp4Bytes": 9136022,
+      "proofReport": ".global-tools/outputs/commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-cta/variant-render-proof-report.json",
+      "proofOk": true
+    },
+    {
+      "variantId": "fusion-cast-launch-hero",
+      "type": "heroImage",
+      "mp4": ".global-tools/outputs/fusion-cast-launch-heroImage-variant.mp4",
+      "mp4Exists": true,
+      "mp4Bytes": 9179811,
+      "proofReport": ".global-tools/outputs/commercial-orders/fusion-cast-launch/proofs/variants/fusion-cast-launch-hero/variant-render-proof-report.json",
+      "proofOk": true
+    }
+  ],
+  "boundary": "Commercial variant rendering uses order-private compiled variant manifest. It does not replace public final-creative/variant-manifest.json."
+}
